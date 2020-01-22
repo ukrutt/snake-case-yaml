@@ -32,7 +32,7 @@ setup(
     python_requires=">=3.7, <4",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=["ConfigArgParse>=1.0", "inflection"],
+    install_requires=["ConfigArgParse>=1.0", "inflection", "PyYAML"],
     entry_points={},
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],
