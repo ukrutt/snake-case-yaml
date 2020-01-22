@@ -11,7 +11,7 @@ I like to use pyenv to specify a Python version
 
     % eval "$(pyenv init -)"
     % python3 --version
-    3.8.1
+    3.7.6
     % python3 -m venv .venv
     % . .venv/bin/activate
     % pip install --upgrade pip
