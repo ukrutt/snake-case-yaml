@@ -1,4 +1,5 @@
-"""python-project-template -- my template for new Python programs and libraries
+"""snake-case-yaml -- convert YAML snake_case keys to sausage-case
+
 """
 
 import os
@@ -16,12 +17,12 @@ with open(os.path.join(HERE, "README.md"), encoding="utf-8") as f:
 
 
 setup(
-    name="python-project-template",
+    name="snake-case-yaml",
     version=VERSION,
-    description="Python Project Template",
+    description="Convert YAML snake_case keys to sausage-case",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url="https://github.com/ukrutt/python-project-template",
+    url="https://github.com/ukrutt/snake-case-yaml",
     author="Henrik Holm",
     author_email="henrik@forestglenresearch.com",
     classifiers=[
@@ -32,15 +33,9 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        # "numpy>=1.16",
-        # "scipy>=1.1",
-        # "paho-mqtt>=1.4",
+        "ConfigArgParse>=1.0", "inflection"
     ],
     entry_points={
-        # If this isn't a runnable program, you can delete this entry point.
-        "console_scripts": [
-            "hello_world=python_project_template.main:hello_world",
-        ]
     },
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],

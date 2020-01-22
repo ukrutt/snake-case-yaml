@@ -1,4 +1,4 @@
-PACKAGES = python_project_template tests
+PACKAGES = snake_case_yaml tests
 
 .PHONY: ci
 ci: check test

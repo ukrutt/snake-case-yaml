@@ -1,15 +1,8 @@
-# Project template for Python projects
+# Snake Case YAML
 
-Folder structure, setup file, CI integration, etc. for a generic Python project
-
-## TO USE
-
- - Clone this project and delete the .git directory, or simply click the "Use this template" button on https://github.com/ukrutt/python-project-template.
- - Search for python-project-template and replace with the name of your new project
-
- - Search for python_project_template and replace with the name of your new program (subtly different).  NOTE: this includes the folder.
-
- - DELETE this section.
+Extension to ConfigArgParse with support for YAML files that use
+`snake_case` keys.  These don't work well with `configargparse`, since
+it expects keys to be in `sausage-case` format.
 
 
 ## Installation

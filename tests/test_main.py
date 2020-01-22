@@ -1,6 +1,6 @@
 """Sample test file."""
 
-from python_project_template import main
+from snake_case_yaml import main
 
 
 def test_add_two():
